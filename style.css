@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 #vertical_line{
@@ -63,18 +64,22 @@
     overflow: hidden;
     overflow-x: scroll;
 }
-#section-2>a>img{
-    width: 300px;
-    margin: 10px;
-}
+
 #section-3>a>img{
     width: 125px;
 }
+#section-3>a{
+    transition: all 0.5s ease;
+}
+#section-3>a:hover{
+    transform: scale(1.2,1.2);
+    
+}
 #section-4{
-    margin-inline: auto;
+    margin: auto;
     width: 85%;
 }
-
+/*
 .cards{
     margin: 10px;
     width: 20% !important;
@@ -88,23 +93,36 @@
 .card-title{
     white-space: wrap;
 }
-
+*/
 .card-text{
     color: gray;
 }
 
 .my-btn{
     border-radius: 10px !important;
+    transition: 0.5s ease !important;
 }
- 
+.my-btn:hover{
+    transform: scale(1.2,1.2);
+    
+}
 
 
 footer{
     display: block;
 }
+.card{
+    transition: 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+    /* box-shadow:5px 5px 0px 10px  lightgray; */
+}
 
 
-
+.timePass:hover{
+    transform: translate(-100%,100%);
+}
 
 
 

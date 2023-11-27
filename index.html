@@ -50,7 +50,7 @@
         </div>
 
         <button class="btn fs-5 ">Login</button>
-        <button id="my_cart"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+        <button class="my-btn " id="my_cart"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                 stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round"
                     d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
@@ -66,25 +66,25 @@
 
     <!-- Section-2 -->
 
-    <div id="section-2" class="scroll">
-        <a href="#"><img
+    <div id="section-2" class="scroll ">
+        <a href="#" ><img class="col-6 col-sm-4 col-md-3 ms-3 mb-2"
                 src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=720/layout-engine/2022-06/morning-banner.jpg"></a>
-        <a href="#"><img
+        <a href="#" ><img class="col-6 col-sm-4 col-md-3 ms-3 mb-2"
                 src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=720/layout-engine/2023-03/Pet-Care_WEB.jpg"></a>
-        <a href="#"><img
+        <a href="#" ><img class="col-6 col-sm-4 col-md-3 ms-3 mb-2"
                 src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=720/layout-engine/2023-03/summer_WEB.jpg"></a>
-        <a href="#"><img
+        <a href="#" ><img class="col-6 col-sm-4 col-md-3 ms-3 mb-2"
                 src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=720/layout-engine/2023-03/electronic-WEB-1.jpg"></a>
-        <a href="#"><img
+        <a href="#" ><img class="col-6 col-sm-4 col-md-3 ms-3 mb-2"
                 src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=720/layout-engine/2023-03/mango-WEB-1.png"></a>
-        <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=720/layout-engine/2023-03/staples-WEB.jpg
+        <a href="#" ><img class="col-6 col-sm-4 col-md-3 ms-3 mb-2" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=720/layout-engine/2023-03/staples-WEB.jpg
             "></a>
     </div>
 
     <!-- Section-3 -->
 
 
-    <div id="section-3">
+    <div id="section-3" class="d-flex flex-wrap justify-content-between mt-3 mb-3">
         <a href="#"><img
                 src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/layout-engine/2022-11/Slice-3_9.png"></a>
         <a href="#"><img
@@ -129,111 +129,94 @@
 
     <!-- Section-4 -->
     <div id="section-4">
-        <h4 class="fw-bold">Dairy, Bread & Eggs</h4>
-        <div class="scroll d-flex justify-content-between">
-            <div class="cards">
-                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/86446a.jpg?ts=1641540332"
-                    class="card-img-top">
+        <h4 class="fw-bold">Dairy, Breads & Eggs</h4>
+        <div id="card-section" class="row scroll flex-nowrap">
+            <div class="card col-6 col-sm-3  col-md-3 col-xl-2 ms-3 mt-2 p-2 mb-2">
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/86446a.jpg?ts=1641540332" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h6 class="card-title">Mother Dairy Classic</h6>
-                    <p class="card-text">400 g</p>
-                    <div class="d-flex align-items-center justify-content-between">
-                        <p class="fw-bold">₹ 400</p>
-                        <button class="btn btn-outline-success px-4 my-btn">Add</button>
-                    </div>
-
+                  <h5 class="card-title">Mother Dairy Classic</h5>
+                  <p class="card-text">400 g</p>
+                  <div class="row justify-content-between align-items-center">
+                    <p class="col-5 m-0">₹ 400</p>
+                    <button class="btn btn-outline-success col-5 my-btn">Add</button>  
+                  </div>
                 </div>
             </div>
-            <div class="cards">
-                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/10491a.jpg"
-                    class="card-img-top">
+            <div class="card col-6 col-sm-3  col-md-3 col-xl-2 ms-3 mt-2 p-2 mb-2">
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/10491a.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h6 class="card-title">Nestle Milkmaid Sweetened...</h6>
-                    <p class="card-text">380 g</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <p class="fw-bold">₹ 139</p>
-                        <button class="btn btn-outline-success px-4 my-btn">Add</button>
-                    </div>
-
+                  <h5 class="card-title">Mother Dairy Classic</h5>
+                  <p class="card-text">400 g</p>
+                  <div class="row justify-content-between align-items-center">
+                    <p class="col-5 m-0">₹ 400</p>
+                    <button class="btn btn-outline-success col-5 my-btn">Add</button>  
+                  </div>
                 </div>
             </div>
-            <div class="cards">
-                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/483705a.jpg?ts=1657805510"
-                    class="card-img-top">
+            <div class="card col-6 col-sm-3  col-md-3 col-xl-2 ms-3 mt-2 p-2 mb-2">
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/483705a.jpg?ts=1657805510" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h6 class="card-title">Table White Egg - 30 Pieced Tray</h6>
-                    <p class="card-text">30 pieces</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <p class="fw-bold">₹ 196</p>
-                        <button class="btn btn-outline-success px-4 my-btn">Add</button>
-                    </div>
-
+                  <h5 class="card-title">Mother Dairy Classic</h5>
+                  <p class="card-text">400 g</p>
+                  <div class="row justify-content-between align-items-center">
+                    <p class="col-5 m-0">₹ 400</p>
+                    <button class="btn btn-outline-success col-5 my-btn">Add</button>  
+                  </div>
                 </div>
             </div>
-            <div class="cards">
-                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/24194a.jpg?ts=1661157751"
-                    class="card-img-top">
+            <div class="card col-6 col-sm-3  col-md-3 col-xl-2 ms-3 mt-2 p-2 mb-2">
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/24194a.jpg?ts=1661157751" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h6 class="card-title">Harvest Gold Hearty Brown</h6>
-                    <p class="card-text">400 g</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <p class="fw-bold">₹ 400</p>
-                        <button class="btn btn-outline-success px-4 my-btn">Add</button>
-                    </div>
-
+                  <h5 class="card-title">Mother Dairy Classic</h5>
+                  <p class="card-text">400 g</p>
+                  <div class="row justify-content-between align-items-center">
+                    <p class="col-5 m-0">₹ 400</p>
+                    <button class="btn btn-outline-success col-5 my-btn">Add</button>  
+                  </div>
                 </div>
             </div>
-            <div class="cards">
-                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/192a.jpg?ts=1644908944"
-                    class="card-img-top">
+            <div class="card col-6 col-sm-3  col-md-3 col-xl-2 ms-3 mt-2 p-2 mb-2">
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/192a.jpg?ts=1644908944" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h6 class="card-title">Mother Dairy Paneer</h6>
-                    <p class="card-text">200 g</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <p class="fw-bold">₹ 90</p>
-                        <button class="btn btn-outline-success px-4 my-btn">Add</button>
-                    </div>
-
+                  <h5 class="card-title">Mother Dairy Classic</h5>
+                  <p class="card-text">400 g</p>
+                  <div class="row justify-content-between align-items-center">
+                    <p class="col-5 m-0">₹ 400</p>
+                    <button class="btn btn-outline-success col-5 my-btn">Add</button>  
+                  </div>
                 </div>
             </div>
-
-            <div class="cards">
-                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/160a.jpg?ts=1654778815"
-                    class="card-img-top">
+            <div class="card col-6 col-sm-3  col-md-3 col-xl-2 ms-3 mt-2 p-2 mb-2">
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/160a.jpg?ts=1654778815" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h6 class="card-title">Amul Salted Butter</h6>
-                    <p class="card-text">500 g</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <p class="fw-bold">₹ 275</p>
-                        <button class="btn btn-outline-success px-4 my-btn">Add</button>
-                    </div>
-
+                  <h5 class="card-title">Mother Dairy Classic</h5>
+                  <p class="card-text">400 g</p>
+                  <div class="row justify-content-between align-items-center">
+                    <p class="col-5 m-0">₹ 400</p>
+                    <button class="btn btn-outline-success col-5 my-btn">Add</button>  
+                  </div>
                 </div>
             </div>
-            <div class="cards">
-                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/45533a.jpg?ts=1654845569"
-                    class="card-img-top">
+            <div class="card col-6 col-sm-3  col-md-3 col-xl-2 ms-3 mt-2 p-2 mb-2">
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/45533a.jpg?ts=1654845569" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h6 class="card-title">Amul Salted Masti Curd</h6>
-                    <p class="card-text">400 g</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <p class="fw-bold">₹ 43</p>
-                        <button class="btn btn-outline-success px-4 my-btn">Add</button>
-                    </div>
-
+                  <h5 class="card-title">Mother Dairy Classic</h5>
+                  <p class="card-text">400 g</p>
+                  <div class="row justify-content-between align-items-center">
+                    <p class="col-5 m-0">₹ 400</p>
+                    <button class="btn btn-outline-success col-5 my-btn">Add</button>  
+                  </div>
                 </div>
             </div>
-            <div class="cards">
-                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/448095a.jpg?ts=166115775"
-                    class="card-img-top">
+            <div class="card col-6 col-sm-3  col-md-3 col-xl-2 ms-3 mt-2 p-2 mb-2">
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/448095a.jpg?ts=1661157752" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h6 class="card-title">Harvest Gold White Bread</h6>
-                    <p class="card-text">400 g</p>
-                    <div class="d-flex justify-content-between align-items-center ">
-                        <p class="fw-bold">₹ 400</p>
-                        <button class="btn btn-outline-success px-4 my-btn ms-2">Add</button>
-                    </div>
-
+                  <h5 class="card-title">Mother Dairy Classic</h5>
+                  <p class="card-text">400 g</p>
+                  <div class="row justify-content-between align-items-center">
+                    <p class="col-5 m-0">₹ 400</p>
+                    <button class="btn btn-outline-success col-5 my-btn">Add</button>  
+                  </div>
                 </div>
             </div>
         </div>
