@@ -4,6 +4,7 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://blinkit.com/images/faviconChange.ico" type="image/x-icon">
         <link rel="stylesheet" href="style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
                 integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
@@ -57,9 +58,15 @@
                         <div class="collapse navbar-collapse " id="navbarSupportedContent">
 
                                 <ul class="w-100 navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around">
-                                        <li class="nav-item">
+                                        <li class="nav-item col-lg-8 col-xxl-9">
                                                 <div class="search_baar">
-                                                        <i for="search" class="fa-solid fa-magnifying-glass"></i>
+
+                                                        <svg width="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                viewBox="0 0 24 24" stroke-width="2.2"
+                                                                stroke="currentColor" class="w-6 h-6">
+                                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                                        </svg>
                                                         <input type="text" id="search" placeholder='Search "butter"'>
                                                 </div>
                                         </li>
@@ -154,7 +161,10 @@
 
         <!-- Section-4 -->
         <div id="section-4">
-                <h4 class="fw-bold">Dairy, Breads & Eggs</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="fw-bold">Dairy, Breads & Eggs</h4>
+                        <a href="#">see all</a>
+                </div>
                 <div id="card-section" class="row scroll flex-nowrap">
                         <div class="card col-6 col-sm-3 col-xl-2 ms-3 mt-2 p-2 mb-2">
                                 <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/86446a.jpg?ts=1641540332"
@@ -258,8 +268,7 @@
         <!-- Footer -->
 
         <footer class="p-5">
-                <h6 class="text-center">Made with <i class="fa-solid fa-heart" style="color: #fa0000;">By Amit
-                                Hariyale</i> </h6>
+                <h6 class="text-center">Made with <i class="fa-solid fa-heart" style="color: #fa0000;"></i> </h6>
         </footer>
 
 
